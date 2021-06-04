@@ -1,7 +1,10 @@
+program which download wav forms of videos from youtube including their subtitles. The output is a txt file that has subtitles and a given wav file with the same name in order to train machine learning speech recognition language models.
+
+
 The following program utilizes API youtube-dl in order to download wav forms of videos from youtube including their subtitles. The output is a txt file that has subtitles and a given wav file with the same name in order to train machine learning speech recognition language models. 
 
 Dependencies: 
-In order to make this work, you need to install youtube-dl. You can do so using pip. 
+In order to make this work, you need to install youtube-dl. You have to write this line: "pip install youtube-dl", on terminal or cmd. 
 
 Directions: 
 In the "youtube_captions" folder, you will see a txt file called url.txt
